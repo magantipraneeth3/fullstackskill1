@@ -11,7 +11,6 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 
 public class App {
-
     public static void main(String[] args) {
 
         Session session = HibernateUtil.getSessionFactory().openSession();
